@@ -28,7 +28,7 @@
         .page-header {
             background-image: linear-gradient(to right, #ff7b02, #ffcb52);
             height: 300px;
-            margin-bottom: 750px;
+            margin-bottom: 550px;
 
         }
 
@@ -61,6 +61,26 @@
         input[type=number] {
             -moz-appearance: textfield;
             /* Firefox */
+        }
+
+        .bt-fb {
+            border: 0.5px solid #3b5998;
+            color: #3b5998;
+        }
+
+        .bt-fb:hover {
+            background-color: #3b5998;
+            color: white;
+        }
+
+        .bt-gg {
+            border: 0.5px solid #b23121;
+            color: #b23121;
+        }
+
+        .bt-gg:hover {
+            background-color: #b23121;
+            color: white;
         }
     </style>
 </head>
@@ -133,51 +153,27 @@
         <div class="d-flex justify-content-center">
             <div class="col-lg-5 col-md-7 col-sm-10 col-xs-12 box">
                 <form>
-                    <h1 class="page-title font-weight-normal mb-5">Book</h1>
+                    <h1 class="page-title font-weight-normal mb-5">SIGN IN</h1>
                     <div class="form-group">
-                        <label class="" for="address">Address</label>
-                        <input id="address" type="text" placeholder="" class="form-control">
+                        <input id="phone-number" type="number" placeholder="phone-number" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label class="" for="house-no">House/apartment no.</label>
-                        <input id="house-no" type="text" placeholder="" class="form-control">
+                        <input id="password" type="password" placeholder="password" class="form-control">
                     </div>
-                    <div class="form-row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label class="" for="date">Date</label>
-                                <input type="date" class="form-control" />
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label class=" " for="email">Time</label>
-                                <input id="time" type="time" step="60" placeholder="" class="form-control">
-                            </div>
-                        </div>
+                    <div class="col-12 text-right mb-3">
+                        <a href="forgot-password.html">FORGOT PASSWORD?</a>
                     </div>
-                    <div class="form-group">
-                        <label class="" for="services">Service</label>
-                        <select class="form-control selectpicker" id="services">
-                            <option selected disabled>Choose services...</option>
-                            <option value="1">Office Cleaning</option>
-                            <option value="2">House Cleaning</option>
-                            <option value="3">Commercial Cleaning</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                            <label class="" for="textarea">Private note</label>
-                            <textarea class="form-control" id="textarea" rows="5" name="textarea" rows="4"
-                                placeholder="Messages"></textarea>
-                        </div>
-                    <div class="form-group">
-                        <label class=" " for="promo-code">Promotional code</label>
-                        <input id="promo-code" type="text" placeholder="" class="form-control">
-                    </div>
-                    <div class="mb-5"></div>
-                    <button type="submit" class="btn-block btn-default text-center form-control border-0">NEXT<i
-                            class="fa fa-long-arrow-right ml-2"></i></button>
+                    <button type="submit" class="btn-block btn-default text-center form-control border-0">SIGN
+                        IN</button>
+                    <button type="submit" class="btn-block text-center form-control bt-fb"><i
+                            class="fa fa-facebook mr-3"></i>SIGN IN WITH FACEBOOK</button>
+                    <button type="submit" class="btn-block text-center form-control bt-gg"><i
+                            class="fa fa-google mr-3"></i>SIGN IN WITH GOOGLE+</button>
                     <div class="m-4"></div>
+                    <div class="col-12 text-center">
+                        <p>Don't have an acount? <a href="sign-up.html">Sign Up</a></p>
+                    </div>
+
                 </form>
             </div>
         </div>

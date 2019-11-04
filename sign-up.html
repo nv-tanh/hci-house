@@ -28,7 +28,7 @@
         .page-header {
             background-image: linear-gradient(to right, #ff7b02, #ffcb52);
             height: 300px;
-            margin-bottom: 750px;
+            margin-bottom: 600px;
 
         }
 
@@ -133,51 +133,31 @@
         <div class="d-flex justify-content-center">
             <div class="col-lg-5 col-md-7 col-sm-10 col-xs-12 box">
                 <form>
-                    <h1 class="page-title font-weight-normal mb-5">Book</h1>
+                    <h1 class="page-title font-weight-normal mb-5">SIGN UP</h1>
                     <div class="form-group">
-                        <label class="" for="address">Address</label>
-                        <input id="address" type="text" placeholder="" class="form-control">
+                        <input id="name" type="text" placeholder="NAME" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label class="" for="house-no">House/apartment no.</label>
-                        <input id="house-no" type="text" placeholder="" class="form-control">
-                    </div>
-                    <div class="form-row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label class="" for="date">Date</label>
-                                <input type="date" class="form-control" />
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <label class=" " for="email">Time</label>
-                                <input id="time" type="time" step="60" placeholder="" class="form-control">
-                            </div>
-                        </div>
+                        <input id="phone-number" type="number" placeholder="PHONE NUMBER" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label class="" for="services">Service</label>
-                        <select class="form-control selectpicker" id="services">
-                            <option selected disabled>Choose services...</option>
-                            <option value="1">Office Cleaning</option>
-                            <option value="2">House Cleaning</option>
-                            <option value="3">Commercial Cleaning</option>
-                        </select>
+                        <input id="email" type="email" placeholder="EMAIL" class="form-control">
                     </div>
                     <div class="form-group">
-                            <label class="" for="textarea">Private note</label>
-                            <textarea class="form-control" id="textarea" rows="5" name="textarea" rows="4"
-                                placeholder="Messages"></textarea>
-                        </div>
-                    <div class="form-group">
-                        <label class=" " for="promo-code">Promotional code</label>
-                        <input id="promo-code" type="text" placeholder="" class="form-control">
+                        <input id="promo-code" type="text" placeholder="PROMOTIONAL CODE (OPTION)" class="form-control">
                     </div>
-                    <div class="mb-5"></div>
-                    <button type="submit" class="btn-block btn-default text-center form-control border-0">NEXT<i
-                            class="fa fa-long-arrow-right ml-2"></i></button>
+                    <div class="form-group">
+                        <label class="d-block">
+                            <input type="checkbox" class="mr-1" name="sports"> I have read and agree to the <a
+                                href="#">term of service</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-block btn-default text-center form-control border-0">SIGN
+                        UP</button>
                     <div class="m-4"></div>
+                    <div class="col-12 text-center">
+                        <p>Don't have an acount? <a href="sign-in.html">Sign In</a></p>
+                    </div>
                 </form>
             </div>
         </div>
