@@ -16380,6 +16380,10 @@ ul.elementor-nav-menu--dropdown a:hover {
     margin: 0
 }
 
+.ast-container .site-main{
+    margin-top: -20px;
+}
+
 .elementor-search-form {
     display: block;
     -webkit-transition: .2s;
@@ -20680,10 +20684,8 @@ screen and (max-height:300px) {
 
 .elementor-4849 .elementor-element.elementor-element-8917452:not(.elementor-motion-effects-element-type-background),
 .elementor-4849 .elementor-element.elementor-element-8917452>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://www.btaskee.com/wp-content/uploads/2018/11/Header-banner-dang-ky-giup-viec-nha-theo-gio-btaskee.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, #ff7b02, #ffcb52);
+    height: 30vh;
 }
 
 .elementor-4849 .elementor-element.elementor-element-8917452 {
@@ -23502,10 +23504,8 @@ body.rtl .elementor-9739 .elementor-element.elementor-element-3391211.elementor-
 
 .elementor-4853 .elementor-element.elementor-element-6d98bad:not(.elementor-motion-effects-element-type-background),
 .elementor-4853 .elementor-element.elementor-element-6d98bad>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://www.btaskee.com/wp-content/uploads/2018/12/Air-cond-header-dang-ky-ve-sinh-may-lanh-bTaskee.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, #ff7b02, #ffcb52);
+    height: 30vh;
 }
 
 .elementor-4853 .elementor-element.elementor-element-6d98bad {
@@ -24625,10 +24625,8 @@ body:not(.rtl) .elementor-4853 .elementor-element.elementor-element-605a421 .ele
 
 .elementor-4851 .elementor-element.elementor-element-8e5df09:not(.elementor-motion-effects-element-type-background),
 .elementor-4851 .elementor-element.elementor-element-8e5df09>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("https://www.btaskee.com/wp-content/uploads/2018/11/dang-ky-giat-ui-btaskee.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to right, #ff7b02, #ffcb52);
+    height: 30vh;
 }
 
 .elementor-4851 .elementor-element.elementor-element-8e5df09 {
@@ -33148,8 +33146,8 @@ th {
 .ast-container {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px
+    /* /* padding-left: 20px; */
+    padding-bottom: 20px;
 }
 
 .ast-container::after {
