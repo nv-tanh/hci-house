@@ -1218,6 +1218,10 @@ img {
     color: #ff7b02 !important;
 }
 
+#navigation.small-screen>ul>li.active>a {
+    color: #59ca6d !important;
+}
+
 #navigation>ul>li:hover>a {
     color: #ff7b02;
 }
@@ -1453,6 +1457,8 @@ img {
     background: #ff7b02;
 }
 
+
+#navigation.small-screen ul li:hover>a,
 #navigation.small-screen ul ul li:hover>a,
 #navigation.small-screen ul ul li.active>a {
     color: #fff;
@@ -3195,4 +3201,21 @@ a:active {
         padding-top: 30px;
         padding-bottom: 30px;
     }
+}
+
+#navigation.small-screen ul li.sign-do1 a {
+    background: #ff7b02;
+    border-radius: 0px;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
+}
+#navigation.small-screen ul li.sign-do2 a {
+    background: #ff7b02;
+    border-radius: 0px;
+    color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: left;
 }
