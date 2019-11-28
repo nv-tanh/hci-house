@@ -25802,12 +25802,12 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5040 .elementor-element.elementor-element-c44365b {
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    z-index: 1
+    z-index: 1;
+    background-image: linear-gradient(to right, #ff7b02, #ffcb52);
+    height: 30vh;
 }
 
 .elementor-5040 .elementor-element.elementor-element-c44365b>.elementor-background-overlay {
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s
 }
 
 .elementor-bc-flex-widget .elementor-5040 .elementor-element.elementor-element-6f60e5a.elementor-column .elementor-column-wrap {
@@ -25831,10 +25831,6 @@ button.swiper-pagination-bullet {
 
 .elementor-5040 .elementor-element.elementor-element-5076261:not(.elementor-motion-effects-element-type-background)>.elementor-element-populated,
 .elementor-5040 .elementor-element.elementor-element-5076261>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url(https://www.btaskee.com/wp-content/uploads/2019/03/Home_Cooking_HR_bTasker-nau-an-gia-dinh.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover
 }
 
 .elementor-5040 .elementor-element.elementor-element-5076261>.elementor-element-populated {
