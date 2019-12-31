@@ -187,9 +187,9 @@ strong {
 }
 
 hr {
-    border-bottom: 1px solid #dfdfdf;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    /* border-bottom: 1px solid #dfdfdf; */
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .w-100 {
@@ -483,8 +483,8 @@ button.btn {
 .space-medium {
     /* padding-top: 80px;
     padding-bottom: 80px; */
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .space-large {
@@ -1234,8 +1234,6 @@ img {
     background: #ff7b02;
     border-radius: 50px;
     color: #fff;
-    margin-left: 10px;
-    margin-right: 0px;
 }
 
 #navigation>ul>li.sign-do1:hover>a {
@@ -1609,7 +1607,7 @@ img {
 ----------------------------------------------*/
 .page-header {
     text-align: left;
-    background-image: url(../images/page-header.png);
+    /* background-image: url(../images/page-header.png); */
     background-size: cover;
     margin: 0px;
     padding: 0px;
@@ -1882,6 +1880,9 @@ img {
 .note {
     margin: 30px 0px 30px 0px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .service-block {
@@ -1896,7 +1897,6 @@ img {
 }
 
 .service-img img {
-    margin-bottom: 30px;
     border-radius: 5px;
     display: block;
     margin-left: auto;
@@ -2011,6 +2011,11 @@ img {
 
 .service-rights-content {
     padding: 20px 70px 0px 70px;
+}
+
+.service-title{
+    /* font-size: 35px; */
+    /* color: #ff7b02; */
 }
 
 .service-details {
@@ -3141,8 +3146,8 @@ a:active {
     }
 
     .space-medium {
-        padding-top: 35px;
-        padding-bottom: 35px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
@@ -3201,21 +3206,4 @@ a:active {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-}
-
-#navigation.small-screen ul li.sign-do1 a {
-    background: #ff7b02;
-    border-radius: 0px;
-    color: #fff;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: left;
-}
-#navigation.small-screen ul li.sign-do2 a {
-    background: #ff7b02;
-    border-radius: 0px;
-    color: #fff;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: left;
 }
